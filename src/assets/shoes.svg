@@ -1,0 +1,7 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="240" rx="24" fill="#4F46E5"/>
+  <path d="M48 160C56 140 88 128 152 128C208 128 256 148 272 160" stroke="#F8FAFC" stroke-width="16" stroke-linecap="round"/>
+  <path d="M152 128L136 96L184 88L208 124" stroke="#E2E8F0" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 162C42 192 60 210 116 204C170 198 210 176 242 164" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <text x="160" y="220" text-anchor="middle" fill="#E0E7FF" font-family="Inter, sans-serif" font-size="22">Shoes</text>
+</svg>

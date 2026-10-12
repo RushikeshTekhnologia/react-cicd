@@ -45,7 +45,112 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition:
+    border-color 0.25s,
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+.product-page {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+.product-page__hero {
+  margin-bottom: 32px;
+  color: #f5f5f5;
+}
+
+.product-page__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.product-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.16);
+}
+
+.product-card__image {
+  min-height: 140px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.product-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-card__content h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.product-card__content p {
+  margin: 0;
+  color: #cbd5e1;
+  line-height: 1.65;
+}
+
+.product-card__price {
+  color: #a5f3fc;
+  font-weight: 700;
+}
+
+.button-3d {
+  border: none;
+  padding: 0.95em 1.4em;
+  color: #ffffff;
+  background: linear-gradient(145deg, #2563eb, #4f46e5);
+  box-shadow:
+    0 12px 20px rgba(37, 99, 235, 0.35),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+.button-3d:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 18px 28px rgba(37, 99, 235, 0.45),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+.button-3d:active {
+  transform: translateY(0);
 }
 
 button:hover {

@@ -1,0 +1,7 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="240" rx="24" fill="#F97316"/>
+  <path d="M80 104L160 56L240 104V176H80V104Z" fill="#FDBA74" stroke="#FB923C" stroke-width="10"/>
+  <path d="M80 104L160 152L240 104" stroke="#FB923C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M160 56V152" stroke="#FB923C" stroke-width="10" stroke-linecap="round"/>
+  <text x="160" y="220" text-anchor="middle" fill="#FFF7ED" font-family="Inter, sans-serif" font-size="22">Box</text>
+</svg>

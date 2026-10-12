@@ -1,9 +1,9 @@
-import ParallaxComp from "./components/parallax/ParallaxComp"
+import ProductPage from './components/ProductPage'
 
 function App() {
   return (
     <>
-      <ParallaxComp />
+      <ProductPage />
     </>
   )
 }
