@@ -36,7 +36,7 @@ const ProductPage = () => {
     const [tokenMap, setTokenMap] = useState<Record<string, string>>({});
     // eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any
     const [finishedDesign, setFinishedDesign] = useState<any>(null);
-
+    console.log(finishedDesign)
     // ─── Step 1: On load, fetch all products from Django and build the token map ───
     useEffect(() => {
         const loadProducts = async () => {
